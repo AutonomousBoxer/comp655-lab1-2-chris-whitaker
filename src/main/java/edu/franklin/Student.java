@@ -1,3 +1,11 @@
+/**
+ * Purpose: Domain class representing a student with a
+ * unique id,
+ * name,
+ * phone,
+ * and courses taken.
+ * Author: Chris Whitaker
+ */
 package edu.franklin;
 
 import java.util.List;
@@ -6,15 +14,15 @@ public class Student {
     private int id;
     private String name;
     private String phone;
-    private List<Course> coursesTaken;
+    private List<Course> courses;
 
-    public Student() {}
+    public Student() {
+    }
 
-    public Student(int id, String name, String phone, List<Course> coursesTaken) {
-        this.id = id;
+    public Student(String name, String phone, List<Course> courses) {
         this.name = name;
         this.phone = phone;
-        this.coursesTaken = coursesTaken;
+        this.courses = courses;
     }
 
     public int getId() {
@@ -41,11 +49,11 @@ public class Student {
         this.phone = phone;
     }
 
-    public List<Course> getCoursesTaken() {
-        return coursesTaken;
+    public List<Course> getCourses() {
+        return courses;
     }
 
-    public void setCoursesTaken(List<Course> coursesTaken) {
-        this.coursesTaken = coursesTaken;
+    public void setCourses(List<Course> courses) {
+        this.courses = courses;
     }
 }

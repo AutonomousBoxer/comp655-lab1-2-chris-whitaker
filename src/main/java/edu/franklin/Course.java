@@ -1,3 +1,11 @@
+/**
+ * Purpose: Domain class representing a course with
+ * prefix,
+ * number,
+ * semester,
+ * and letter grade.
+ * Author: Chris Whitaker
+ */
 package edu.franklin;
 
 public class Course {
@@ -6,7 +14,8 @@ public class Course {
     private String semester;
     private String grade;
 
-    public Course() {}
+    public Course() {
+    }
 
     public Course(String prefix, int number, String semester, String grade) {
         this.prefix = prefix;
@@ -18,6 +27,7 @@ public class Course {
     public String getPrefix() {
         return prefix;
     }
+
     public void setPrefix(String prefix) {
         this.prefix = prefix;
     }
