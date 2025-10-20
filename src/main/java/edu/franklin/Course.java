@@ -1,5 +1,5 @@
 /**
- * Purpose: Domain class representing a course with
+ * Purpose: Course domain class with fields:
  * prefix,
  * number,
  * semester,

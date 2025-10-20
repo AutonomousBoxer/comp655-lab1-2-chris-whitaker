@@ -1,10 +1,11 @@
 /**
- * Purpose: Quarkus resource exposing CRUD endpoints for Student.
- * Uses an in-memory List. Status codes:
- * POST → 201 Created
- * GET  → 200 OK
- * PUT  → 200 OK
- * DELETE → 204 No Content
+ * Purpose: CRUD endpoints for Student.
+ * Uses List as database.
+ * Status codes:
+ * POST: 201 Created
+ * GET: 200 OK
+ * PUT: 200 OK
+ * DELETE: 204 No Content
  * Author: Chris Whitaker
  */
 

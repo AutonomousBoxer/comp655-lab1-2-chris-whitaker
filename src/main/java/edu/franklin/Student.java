@@ -1,5 +1,5 @@
 /**
- * Purpose: Domain class representing a student with a
+ * Purpose: Student domain class with fields:
  * unique id,
  * name,
  * phone,
